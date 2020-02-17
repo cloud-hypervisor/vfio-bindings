@@ -14,7 +14,7 @@ vfio-v5_0_0 = []
 fam-wrappers = ["vmm-sys-util"]
 
 [dependencies]
-vmm-sys-util = { version = ">=0.2.0", optional = true }
+vmm-sys-util = { git = "https://github.com/rust-vmm/vmm-sys-util", optional = true }
 
 [dev-dependencies]
 byteorder = ">=1.2.1"
